@@ -10,6 +10,6 @@
   - Upon completion, you can push your solution to github
   
   
-  #Installation
-  `npm install`
+# Installation
+- `npm install`
 
