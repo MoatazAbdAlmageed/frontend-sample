@@ -12,4 +12,5 @@
   
 # Installation
 - `npm install`
+- `sass styles.scss styles.css`
 

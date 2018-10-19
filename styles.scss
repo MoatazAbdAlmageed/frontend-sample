@@ -1,9 +1,16 @@
 //Cololrs
 $primary-color: #505050;
 $secondary-color: #fdc505;
+$orange-color: orange;
 
-body {
+/* Helpers */
+.margin-top-10 {
+  margin-top: 10px !important;
+}
 
+.center {
+  margin: 0 auto;
+  display: block;
 }
 
 #main {
@@ -11,21 +18,54 @@ body {
   .container {
     text-align: center;
     padding: 1em 5em;
-    h1 ,p{
+    h1, p {
       color: #ffffff;
     }
-    .btn{
+    .btn {
       border-color: $secondary-color;
       color: $secondary-color;
     }
-    .btn:hover{
-      color:$primary-color;
-      background-color:$secondary-color;
+    .btn:hover {
+      color: $primary-color;
+      background-color: $secondary-color;
     }
-    b.secondary{
+    b.secondary {
       color: $secondary-color;
     }
   }
 
 }
 
+/* First Task CSS */
+#first {
+  img.lot {
+    width: 400px;
+
+  }
+  .lead {
+    background-color: $orange-color;
+    font-weight: bolder;
+    padding: 20px;
+    color: #ffffff !important;
+  }
+  .product .btn {
+    background-color: $orange-color;
+    color: #ffffff !important;
+
+  }
+
+  .original-price {
+    text-decoration: line-through;
+  }
+  .new-price {
+    font-weight: bolder;
+    color: $orange-color
+  }
+  footer a {
+    color: $orange-color
+  }
+}
+
+/* First Task CSS */
+#second{}
+//todo
