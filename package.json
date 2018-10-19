@@ -1,0 +1,25 @@
+{
+  "name": "frontend-sample",
+  "version": "1.0.0",
+  "description": "- please find attached two screenshots in PDF  `01_homepage.pdf` and `02_pop_up_filter.pdf`.   - The task is to build that site in static frontend code and have one popup appear when pressing the \"Filter\" button. The page should be optimized for mobile devices (as laid out in the screenshots). The developer is free to choose what tools he is working with, but it's possible to build it just with HTML, SASS and simple JavaScript.  - Upon completion, you can push your solution to github",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoatazAbdAlmageed/frontend-sample.git"
+  },
+  "keywords": [],
+  "author": "Moataz Mohammady <moataz.mohammady@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoatazAbdAlmageed/frontend-sample/issues"
+  },
+  "homepage": "https://github.com/MoatazAbdAlmageed/frontend-sample#readme"
+}

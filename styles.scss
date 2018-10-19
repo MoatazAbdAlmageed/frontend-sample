@@ -1,0 +1,31 @@
+//Cololrs
+$primary-color: #505050;
+$secondary-color: #fdc505;
+
+body {
+
+}
+
+#main {
+  background: $primary-color;
+  .container {
+    text-align: center;
+    padding: 1em 5em;
+    h1 ,p{
+      color: #ffffff;
+    }
+    .btn{
+      border-color: $secondary-color;
+      color: $secondary-color;
+    }
+    .btn:hover{
+      color:$primary-color;
+      background-color:$secondary-color;
+    }
+    b.secondary{
+      color: $secondary-color;
+    }
+  }
+
+}
+
