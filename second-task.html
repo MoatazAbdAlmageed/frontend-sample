@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Second Task</title>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<h1>Second Task</h1>
-<p>Soon ..</p>
+<body id="second">
+<div class="card">
+    <p class="drop-down">New York <i class="fa fa-angle-down"></i></p>
+    <h2>Hello Matthew,</h2>
+    <div class="msg">
+        <p>This is your driver, I'm on my way!</p>
+        <p>There is a traffic jam causing delay.</p>
+    </div>
+    <div class="row margin-top-40">
+        <div class="col col-1">
+            <i class="fa fa-circle"></i>
+            <br>
+            <p>Start</p>
+        </div>
+        <div class="col col-2">
+            <div id="bar">
+                <div class="bar-gray"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="col col-3">
+            <i class="fa fa-map-marker"></i>
+            <br>
+            <p>Pick-up point</p>
+        </div>
+    </div>
+
+
+    <button class="btn btn-default dropdown-toggle margin-top-10" type="button" id="dropdownMenu1"
+            data-toggle="dropdown">
+        <span class="fa fa-map"></span>
+    </button>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
 </body>
 </html>
