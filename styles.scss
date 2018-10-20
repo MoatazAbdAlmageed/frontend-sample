@@ -197,9 +197,6 @@ $pink: #FB517C;
         margin-top: -3px;
       }
 
-      .dashed {
-
-      }
       .bar-gray {
         color: $gray;
         background-color: $gray-light !important;
@@ -210,6 +207,13 @@ $pink: #FB517C;
     }
     .map-btn {
       box-shadow: 0 30px 138px rgba(44, 48, 237, 0.38), 0 8px 17px rgba(0, 3, 0, 0.24);
+    }
+
+    #Remainingtime, #AvgSpeed {
+      margin: 5px auto;
+      width: 83px;
+      height: 88px;
+      position: relative;
     }
 
   }

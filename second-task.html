@@ -27,12 +27,12 @@
     </div>
     <div class="row margin-top-30" id="remaining">
         <div class="col-6 half">
-            <p><i class="fa fa-circle block"></i></p>
+            <div id="Remainingtime"></div>
             <p>Remaining time</p>
             <p><span class="black">13:17</span></p>
         </div>
         <div class="col-6 half">
-            <p><i class="fa fa-circle block"></i></p>
+            <div id="AvgSpeed"></div>
             <p>Avg Speed</p>
             <p><span class="black">47</span> mph</p>
         </div>
@@ -60,7 +60,8 @@
         </div>
     </div>
     <div class="row">
-        <button class="btn btn-lg btn-block btn-default dropdown-toggle margin-top-10 map-btn" type="button" id="dropdownMenu1"
+        <button class="btn btn-lg btn-block btn-default dropdown-toggle margin-top-10 map-btn" type="button"
+                id="dropdownMenu1"
                 data-toggle="dropdown">
             <span class="fa fa-map"></span>
         </button>
@@ -68,5 +69,7 @@
 </div>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/progressbar.js/dist/progressbar.min.js"></script>
+<script src="code.js"></script>
 </body>
 </html>
