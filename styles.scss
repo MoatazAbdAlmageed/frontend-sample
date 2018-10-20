@@ -214,6 +214,19 @@ $pink: #FB517C;
       width: 83px;
       height: 88px;
       position: relative;
+      svg {
+        margin-top: -87px;
+        transform: rotate(208deg);
+        right: 6px;
+        position: relative;
+        display: block;
+
+      }
+      svg path{
+        fill: $pink !important;
+        stroke: $pink !important;
+      }
+
     }
 
   }

@@ -1,47 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Second Task</title>
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body id="second">
-<div class="card">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <p class="drop-down">New York <i class="fa fa-angle-down"></i></p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h2>Hello Matthew,</h2>
-            <div class="msg">
-                <p>This is your driver, I'm on my way!</p>
-                <p>There is a traffic jam causing delay.</p>
-            </div>
-        </div>
-
-    </div>
-    <div class="row margin-top-30" id="remaining">
-        <div class="col-6 half">
-            <div id="Remainingtime"></div>
-            <p>Remaining time</p>
-            <p><span class="black">13:17</span></p>
-        </div>
-        <div class="col-6 half">
-            <div id="AvgSpeed">
-                <svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns="http://www.w3.org/2000/svg"
    version="1.0"
    id="svg2"
    sodipodi:version="0.32"
@@ -189,8 +156,8 @@
      style="stop-color:#ffffff;stop-opacity:0;"
      offset="1"
      id="stop29915" /></linearGradient>
-
-
+	
+	
 		<inkscape:perspective
    id="perspective727"
    inkscape:persp3d-origin="52.5 : 36.666667 : 1"
@@ -459,8 +426,8 @@
    inkscape:persp3d-origin="52.5 : 36.666667 : 1"
    id="perspective3160">
 		</inkscape:perspective>
-
-
+	
+	
 		<linearGradient
    id="linearGradient3130"
    gradientUnits="userSpaceOnUse"
@@ -689,8 +656,8 @@
    inkscape:persp3d-origin="52.5 : 36.666667 : 1"
    id="perspective2691">
 		</inkscape:perspective>
-
-
+	
+	
 		<linearGradient
    id="linearGradient2661"
    gradientUnits="userSpaceOnUse"
@@ -800,44 +767,3 @@
        sodipodi:type="arc"
        style="fill:url(#radialGradient4299);fill-opacity:1;stroke:#009a00;stroke-width:23.33295983;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;stroke-dasharray:none"
        transform="matrix(2.341432e-2,0,0,2.341432e-2,458.48857,187.71412)" /></g></g></svg>
-            </div>
-            <p>Avg Speed</p>
-            <p><span class="black">47</span> mph</p>
-        </div>
-    </div>
-
-    <div class="row margin-top-50" id="calc">
-        <div class="col-sm-2">
-            <hr>
-        </div>
-        <div class="col-sm-1">
-            <i class="fa fa-circle"></i>
-            <br>
-            <p>Start</p>
-        </div>
-        <div class="col-sm-7">
-            <div id="bar">
-                <div class="bar-gray"></div>
-                <div class="bar"></div>
-            </div>
-        </div>
-        <div class="col-sm-2">
-            <i class="fa fa-map-marker"></i>
-            <br>
-            <p>Pick-up point</p>
-        </div>
-    </div>
-    <div class="row">
-        <button class="btn btn-lg btn-block btn-default dropdown-toggle margin-top-10 map-btn" type="button"
-                id="dropdownMenu1"
-                data-toggle="dropdown">
-            <span class="fa fa-map"></span>
-        </button>
-    </div>
-</div>
-
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/jquery-circle-progress/dist/circle-progress.min.js"></script>
-<script src="code.js"></script>
-</body>
-</html>
