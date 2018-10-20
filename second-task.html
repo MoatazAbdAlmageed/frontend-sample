@@ -4,40 +4,67 @@
     <meta charset="UTF-8">
     <title>Second Task</title>
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="second">
 <div class="card">
-    <p class="drop-down">New York <i class="fa fa-angle-down"></i></p>
-    <h2>Hello Matthew,</h2>
-    <div class="msg">
-        <p>This is your driver, I'm on my way!</p>
-        <p>There is a traffic jam causing delay.</p>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p class="drop-down">New York <i class="fa fa-angle-down"></i></p>
+        </div>
     </div>
-    <div class="row margin-top-40">
-        <div class="col col-1">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>Hello Matthew,</h2>
+            <div class="msg">
+                <p>This is your driver, I'm on my way!</p>
+                <p>There is a traffic jam causing delay.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row margin-top-30" id="remaining">
+        <div class="col-6 half">
+            <p><i class="fa fa-circle block"></i></p>
+            <p>Remaining time</p>
+            <p><span class="black">13:17</span></p>
+        </div>
+        <div class="col-6 half">
+            <p><i class="fa fa-circle block"></i></p>
+            <p>Avg Speed</p>
+            <p><span class="black">47</span> mph</p>
+        </div>
+    </div>
+
+    <div class="row margin-top-50" id="calc">
+        <div class="col-sm-2">
+            <hr>
+        </div>
+        <div class="col-sm-1">
             <i class="fa fa-circle"></i>
             <br>
             <p>Start</p>
         </div>
-        <div class="col col-2">
+        <div class="col-sm-7">
             <div id="bar">
                 <div class="bar-gray"></div>
                 <div class="bar"></div>
             </div>
         </div>
-        <div class="col col-3">
+        <div class="col-sm-2">
             <i class="fa fa-map-marker"></i>
             <br>
             <p>Pick-up point</p>
         </div>
     </div>
-
-
-    <button class="btn btn-default dropdown-toggle margin-top-10" type="button" id="dropdownMenu1"
-            data-toggle="dropdown">
-        <span class="fa fa-map"></span>
-    </button>
+    <div class="row">
+        <button class="btn btn-lg btn-block btn-default dropdown-toggle margin-top-10 map-btn" type="button" id="dropdownMenu1"
+                data-toggle="dropdown">
+            <span class="fa fa-map"></span>
+        </button>
+    </div>
 </div>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
