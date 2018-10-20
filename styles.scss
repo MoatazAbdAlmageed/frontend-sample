@@ -44,8 +44,13 @@ $orange-color: orange;
     }
   }
 
-  footer a {
-    color: #fff;
+  footer {
+    a {
+      color: #fff;
+    }
+    a:hover {
+      color:$secondary-color;
+    }
   }
 
 }
