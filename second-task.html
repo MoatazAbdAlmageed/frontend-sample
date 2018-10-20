@@ -12,7 +12,21 @@
 <div class="card">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <p class="drop-down">New York <i class="fa fa-angle-down"></i></p>
+            <div class="dropdown" id="myDropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdown_coins"
+                        data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                    Coin
+                </button>
+                <div id="menu" class="dropdown-menu" aria-labelledby="dropdown_coins">
+                    <form class="px-4 py-2">
+                        <input type="search" class="form-control" id="searchCoin" placeholder="BTC"
+                               autofocus="autofocus">
+                    </form>
+                    <div id="menuItems"></div>
+                    <div id="empty" class="dropdown-header">No items found</div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row">
@@ -37,7 +51,6 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -828,16 +841,20 @@
         </div>
     </div>
     <div class="row">
-        <button class="btn btn-lg btn-block btn-default dropdown-toggle margin-top-10 map-btn" type="button"
+        <button class="btn map btn-lg btn-block btn-default dropdown-toggle margin-top-10 map-btn" type="button"
                 id="dropdownMenu1"
                 data-toggle="dropdown">
             <span class="fa fa-map"></span>
         </button>
     </div>
 </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="node_modules/jquery-circle-progress/dist/circle-progress.min.js"></script>
+
 <script src="code.js"></script>
 </body>
 </html>
