@@ -8,6 +8,10 @@ $orange-color: orange;
   margin-top: 10px !important;
 }
 
+.margin-top-40 {
+  margin-top: 40px !important;
+}
+
 .center {
   margin: 0 auto;
   display: block;
@@ -38,6 +42,11 @@ $orange-color: orange;
 
 /* First Task CSS */
 #first {
+
+  .logo {
+    width: 50px;
+    margin-right: 1em;
+  }
   img.lot {
     width: 400px;
 
@@ -48,9 +57,10 @@ $orange-color: orange;
     padding: 20px;
     color: #ffffff !important;
   }
-  .product .btn {
+  .product .btn, .modal-footer .btn-primary {
     background-color: $orange-color;
     color: #ffffff !important;
+    border-color: $secondary-color;
 
   }
 
@@ -61,11 +71,30 @@ $orange-color: orange;
     font-weight: bolder;
     color: $orange-color
   }
-  footer a {
-    color: $orange-color
+  footer {
+    text-align: center;
+    a {
+      color: $orange-color
+    }
+    ul {
+      padding: 0 !important;
+    }
+    li {
+      list-style: none;
+      font-size: smaller;
+    }
+
   }
+
+  .modal-body label {
+    display: block;
+    text-transform: capitalize;
+  }
+
 }
 
 /* First Task CSS */
-#second{}
+#second {
+}
+
 //todo

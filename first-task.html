@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>First Task</title>
+    <title>Delivery Truck</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="styles.css">
@@ -15,9 +15,9 @@
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">About</h4>
-                    <p class="text-muted">Add some information about the album below, the author, or any other
-                        background context. Make it a few sentences long so folks can pick up some informative tidbits.
-                        Then, link them off to some social networking sites or contact information.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        consectetur dolore dolorem dolorum ea esse fugiat ipsum itaque iure, laboriosam libero magnam
+                        nam natus, optio praesentium, similique totam vel voluptatibus.</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Contact</h4>
@@ -33,7 +33,8 @@
     <div class="navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
             <a href="#" class="navbar-brand d-flex align-items-center">
-                <strong>Brand</strong>
+                <img class="logo" src="img/delivery-truck.png" alt="Delivery Truck<">
+                <strong>Delivery Truck</strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
                     aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +51,11 @@
             <img class="lot" src="img/lot.jpeg" alt="Lots">
             <p class="lead text-muted">NEW LOTS POSTED DAILY. CLICK HERE TO GET NOTIFIED!</p>
             <p>
-                <a href="#" class="btn btn-outline-info btn-lg">Filters</a>
+                <!-- Button trigger Filters modal -->
+                <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal"
+                        data-target="#exampleModal">
+                    Filters
+                </button>
             </p>
         </div>
     </section>
@@ -165,11 +170,98 @@
 
 </main>
 
+<!-- Filters Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Filters</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5>Category</h5>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> consumer electronics
+                            </label>
+                            <label>
+                                <input type="checkbox"> home & living
+                            </label>
+                            <label>
+                                <input type="checkbox"> children & baby
+                            </label>
+                            <label>
+                                <input type="checkbox"> household
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h5>Condition</h5>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> unchecked
+                            </label>
+                            <label>
+                                <input type="checkbox"> like new
+                            </label>
+                            <label>
+                                <input type="checkbox"> used with flaws
+                            </label>
+                            <label>
+                                <input type="checkbox"> defect
+                            </label>
+                            <label>
+                                <input type="checkbox"> mixed
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h5>Price</h5>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> 0 <i class="fa fa-eur"></i> - 99 <i class="fa fa-eur"></i>
+                            </label>
+                            <label>
+                                <input type="checkbox"> 100 <i class="fa fa-eur"></i> - 199 <i class="fa fa-eur"></i>
+                            </label>
+                            <label>
+                                <input type="checkbox"> 200 <i class="fa fa-eur"></i> -299 <i class="fa fa-eur"></i>
+                            </label>
+                            <label>
+                                <input type="checkbox"> 300 <i class="fa fa-eur"></i> -399 <i class="fa fa-eur"></i>
+                            </label>
+                            <label>
+                                <input type="checkbox"> > 400 <i class="fa fa-eur"></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Apply</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer class="text-muted margin-top-10">
     <div class="container">
         <div class="row">
-            <div class="col-3">
-                <h2>Brand</h2>
+            <div class="col-2">
+                <h4>Delivery Truck</h4>
+                <img src="img/delivery-truck.png" alt="Delivery Truck<">
             </div>
             <div class="col-3">
                 <h4>Company</h4>
@@ -187,7 +279,7 @@
                     <li><a href="">Imprint</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-4">
                 <h4>Contact</h4>
                 <ul>
                     <li><a href="mailto:b2b@brand.com"> <i class="fa fa-envelope"></i> b2b@brand.com</a></li>
