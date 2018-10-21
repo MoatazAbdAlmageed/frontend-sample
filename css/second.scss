@@ -16,7 +16,7 @@ $pink: #FB517C;
     transition: all 0.3s cubic-bezier(.30, .8, .30, 1);
     padding: 2em;
     width: 97% !important;
-    max-width: 500px !important;
+    max-width:400px !important;
 
     #myDropdown {
       display: block;
@@ -38,6 +38,8 @@ $pink: #FB517C;
       background-color: $blue;
       border-color: #2e6da4;
       color: #EAEAED;
+      max-width: 75%;
+      margin: 0 auto;
     }
 
     .drop-down {
