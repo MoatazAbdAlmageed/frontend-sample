@@ -67,8 +67,8 @@ $orange-color: orange;
     margin-right: 1em;
   }
   img.lot {
-    width: 70%;
-    height: auto;
+    //width: 70%;
+    //height: auto;
   }
   .lead {
     background-color: $orange-color;
@@ -114,6 +114,10 @@ $orange-color: orange;
     text-align: center;
     a {
       color: $orange-color
+
+    }
+    .h4, h4 {
+      font-size: 1rem;
     }
     ul {
       padding: 0 !important;
