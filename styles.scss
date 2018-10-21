@@ -58,6 +58,10 @@ $orange-color: orange;
 /* First Task CSS */
 #first {
 
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+  }
+
   .logo {
     width: 50px;
     margin-right: 1em;
