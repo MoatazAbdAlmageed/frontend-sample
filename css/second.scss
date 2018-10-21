@@ -1,0 +1,170 @@
+/* Second Task CSS */
+$blue: #2C30ED;
+$orange: #F4BD55;
+$gray: #9A9B9C;
+$gray-light: #EAEAED;
+$pink: #FB517C;
+#second {
+  background-color: $gray-light;
+  font-family: 'Montserrat', sans-serif;
+  .card {
+    display: block;
+    margin: 2em auto;
+    width: 30%;
+    min-height: 200px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.30, .8, .30, 1);
+    padding: 2em;
+
+    #myDropdown {
+      display: block;
+      margin: 0 auto;
+      width: 35%;
+    }
+    h2 {
+      margin-top: 1.5em;
+      font-weight: 100;
+    }
+    .msg p {
+      color: $gray;
+      margin: 3px 0;
+    }
+    .btn {
+      background: transparent;
+    }
+    .btn.map {
+      background-color: $blue;
+      border-color: #2e6da4;
+      color: #EAEAED;
+    }
+
+    .drop-down {
+      text-align: center;
+      .fa-angle-down {
+        color: $blue;
+      }
+
+    }
+    .fa-circle {
+      color: $blue !important;
+      float: left;
+    }
+
+    .black {
+      color: #000;
+      font-size: 30px;
+    }
+    .block {
+      font-size: 6em;
+      display: block;
+      width: 100%;
+    }
+
+    #remaining {
+      p {
+        font-size: 12px;
+        color: $gray;
+      }
+    }
+    #calc {
+      hr {
+        border: 2px dashed $gray-light;
+        margin-top: 7px;
+        //margin-right: 8px;
+      }
+      p {
+        font-size: 12px;
+        color: $gray;
+      }
+      .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-7, .col-sm-8 {
+        padding: 0;
+        text-align: center
+      }
+
+    }
+
+    .half {
+      width: 50%;
+      text-align: center;
+    }
+
+    .fa-map-marker {
+      color: $blue;
+    }
+    #bar {
+      margin-top: 6px;
+      margin-left: -10px;
+
+      .bar {
+        color: $blue;
+        background-color: $blue !important;
+        height: 3px;
+        width: 70%;
+        margin-top: -3px;
+      }
+
+      .bar-gray {
+        color: $gray;
+        background-color: $gray-light !important;
+        height: 3px;
+        width: 100%
+      }
+
+    }
+    .map-btn {
+      box-shadow: 0 30px 138px rgba(44, 48, 237, 0.38), 0 8px 17px rgba(0, 3, 0, 0.24);
+    }
+
+    #Remainingtime, #AvgSpeed {
+      margin: 5px auto;
+      width: 83px;
+      height: 88px;
+      position: relative;
+      svg {
+        margin-top: -91px;
+        transform: rotate(208deg);
+        right: 5px;
+        position: relative;
+        display: block;
+
+      }
+      svg path {
+        fill: $pink !important;
+        stroke: $pink !important;
+      }
+
+    }
+
+  }
+
+  .card {
+    width: 97% !important;
+    max-width: 500px !important;
+  }
+  .time-line {
+    width: 100%;
+    position: relative;
+  }
+  .time-line .start-point {
+    position: absolute;
+    left: 10%;
+    top: -8px;
+  }
+  .time-line .end-point {
+    position: absolute;
+    right: 0;
+    top: -8px;
+  }
+  #second .card #bar {
+    margin: 0;
+  }
+  .mg-top-sm {
+    margin-top: 7px;
+    color: #9a9b9c;
+  }
+  .card #bar .bar {
+    margin-left: 10% !important;
+  }
+
+}

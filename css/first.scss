@@ -1,0 +1,81 @@
+
+/* First Task CSS */
+#first {
+
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+  }
+
+  .logo {
+    width: 50px;
+    margin-right: 1em;
+  }
+  img.lot {
+    //width: 70%;
+    //height: auto;
+  }
+  .lead {
+    background-color: $orange-color;
+    font-weight: bolder;
+    padding: 20px;
+    color: #ffffff !important;
+  }
+  .product .btn, .modal-footer .btn-primary {
+    background-color: $orange-color;
+    color: #ffffff !important;
+    border-color: $secondary-color;
+
+  }
+
+  .original-price {
+    text-decoration: line-through;
+  }
+  .new-price {
+    font-weight: bolder;
+    color: $orange-color
+  }
+
+  //.page-item:nth-child() {
+  //  background: orange !important;
+  //}
+  nav.Page {
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .page-link {
+    color: $secondary-color;
+  }
+
+  .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
+
+  footer {
+    text-align: center;
+    a {
+      color: $orange-color
+
+    }
+    .h4, h4 {
+      font-size: 1rem;
+    }
+    ul {
+      padding: 0 !important;
+    }
+    li {
+      list-style: none;
+      font-size: smaller;
+    }
+
+  }
+
+  .modal-body label {
+    display: block;
+    text-transform: capitalize;
+  }
+
+}
