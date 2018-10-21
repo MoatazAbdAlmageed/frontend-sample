@@ -49,7 +49,7 @@ $orange-color: orange;
       color: #fff;
     }
     a:hover {
-      color:$secondary-color;
+      color: $secondary-color;
     }
   }
 
@@ -67,8 +67,8 @@ $orange-color: orange;
     margin-right: 1em;
   }
   img.lot {
-    width: 300px;
-
+    width: 70%;
+    height: auto;
   }
   .lead {
     background-color: $orange-color;
@@ -90,6 +90,26 @@ $orange-color: orange;
     font-weight: bolder;
     color: $orange-color
   }
+
+  //.page-item:nth-child() {
+  //  background: orange !important;
+  //}
+  nav.Page {
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .page-link {
+    color: $secondary-color;
+  }
+
+  .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
+
   footer {
     text-align: center;
     a {
