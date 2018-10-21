@@ -10,12 +10,13 @@ $pink: #FB517C;
   .card {
     display: block;
     margin: 2em auto;
-    width: 30%;
     min-height: 200px;
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(.30, .8, .30, 1);
     padding: 2em;
+    width: 97% !important;
+    max-width: 500px !important;
 
     #myDropdown {
       display: block;
@@ -93,8 +94,9 @@ $pink: #FB517C;
       color: $blue;
     }
     #bar {
-      margin-top: 6px;
-      margin-left: -10px;
+      //margin-top: 6px;
+      //margin-left: -25px;
+      //width: 120%;
 
       .bar {
         color: $blue;
@@ -127,7 +129,6 @@ $pink: #FB517C;
         right: 5px;
         position: relative;
         display: block;
-
       }
       svg path {
         fill: $pink !important;
@@ -138,10 +139,6 @@ $pink: #FB517C;
 
   }
 
-  .card {
-    width: 97% !important;
-    max-width: 500px !important;
-  }
   .time-line {
     width: 100%;
     position: relative;
@@ -149,7 +146,7 @@ $pink: #FB517C;
   .time-line .start-point {
     position: absolute;
     left: 10%;
-    top: -8px;
+    top: -6px;
   }
   .time-line .end-point {
     position: absolute;
@@ -161,7 +158,8 @@ $pink: #FB517C;
   }
   .mg-top-sm {
     margin-top: 7px;
-    color: #9a9b9c;
+    color: $gray;
+    font-size: 10px;
   }
   .card #bar .bar {
     margin-left: 10% !important;

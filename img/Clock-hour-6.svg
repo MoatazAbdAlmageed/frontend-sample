@@ -5,10 +5,10 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns="http://www.w3.org/2000/svg"
    version="1.0"
    id="svg2"
    sodipodi:version="0.32"
@@ -156,8 +156,8 @@
      style="stop-color:#ffffff;stop-opacity:0;"
      offset="1"
      id="stop29915" /></linearGradient>
-	
-	
+
+
 		<inkscape:perspective
    id="perspective727"
    inkscape:persp3d-origin="52.5 : 36.666667 : 1"
@@ -426,8 +426,8 @@
    inkscape:persp3d-origin="52.5 : 36.666667 : 1"
    id="perspective3160">
 		</inkscape:perspective>
-	
-	
+
+
 		<linearGradient
    id="linearGradient3130"
    gradientUnits="userSpaceOnUse"
@@ -656,8 +656,8 @@
    inkscape:persp3d-origin="52.5 : 36.666667 : 1"
    id="perspective2691">
 		</inkscape:perspective>
-	
-	
+
+
 		<linearGradient
    id="linearGradient2661"
    gradientUnits="userSpaceOnUse"
